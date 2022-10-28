@@ -130,5 +130,57 @@ img {
 
 
 @media screen and (max-width: 768px){
+    .container {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container {
+        width: 480px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col {
+        width: 80%;
+    }
+
+    p.text {
+        margin-bottom: 3rem;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .steps .col {
+        width: 75%;
+    }
+
+    .why-us {
+        margin-bottom: 0;
+        background-color: #222222;
+    }
+
+    .why-us .container > h2 {
+    width: 77%;
+    margin: 0 3.5rem 2.5rem;
+    padding-top: 2.5rem;
+    }
+
+    .why-us .col-left img {
+        margin-bottom: 5rem;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
     
+    .why-us .col-right {
+        width: 77%;
+    }
 }
