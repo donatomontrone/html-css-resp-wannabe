@@ -131,13 +131,13 @@ img {
 
 @media screen and (max-width: 768px){
     .container {
-        width: 768px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 480px){
     .container {
-        width: 480px;
+        width: 100%;
     }
 
     .row {
@@ -167,7 +167,7 @@ img {
     }
 
     .why-us .container > h2 {
-    width: 77%;
+    width: 75%;
     margin: 0 3.5rem 2.5rem;
     padding-top: 2.5rem;
     }
@@ -181,6 +181,6 @@ img {
     }
     
     .why-us .col-right {
-        width: 77%;
+        width: 75%;
     }
 }
